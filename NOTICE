@@ -1,0 +1,24 @@
+@aios/glass-contract — AIOS 设备契约，协议 v1
+Device contract between an AIOS Host and smart glasses, protocol v1.
+
+Copyright 2026 Kevin AIOS (陈子恒)
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+致谢 / Acknowledgements
+-----------------------
+AIOS 的眼镜侧工作建立在 MentraOS 开源项目（Apache-2.0）之上并从中受益，
+其设备适配层参照了 MentraOS 上游实现。感谢 MentraOS 及其贡献者。
+AIOS glasses work builds on and benefits from the MentraOS open-source
+project (Apache-2.0). We thank MentraOS and its contributors.
+
+商标 / Trademarks
+-----------------
+"Mentra"、"MentraOS" 及相关标识是其各自所有者的商标。本包及其衍生作品
+不得使用 Mentra 商标作为产品名、包名或品牌，也不得暗示与 Mentra 存在
+关联或获得其认可。Apache-2.0 第 6 条不授予商标使用权。
+"Mentra", "MentraOS" and related marks are trademarks of their respective
+owners. This package and derivative works must not use the Mentra
+trademarks as a product, package or brand name, or imply affiliation with
+or endorsement by Mentra. Section 6 of the Apache License 2.0 grants no
+trademark rights.

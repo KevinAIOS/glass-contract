@@ -1,0 +1,3 @@
+$ node test/consumer.ts
+@aios/glass-contract standalone Node consumer passed
+EXIT=0

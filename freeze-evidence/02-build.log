@@ -1,0 +1,14 @@
+$ bun run build
+$ tsc -p tsconfig.json
+EXIT=0
+--- dist:
+dist/catalog.d.ts
+dist/catalog.js
+dist/core.d.ts
+dist/core.js
+dist/index.d.ts
+dist/index.js
+dist/packages.d.ts
+dist/packages.js
+dist/schemas.d.ts
+dist/schemas.js

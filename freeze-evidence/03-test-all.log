@@ -1,0 +1,25 @@
+$ bun test test
+bun test v1.4.4 (38afee6c8)
+
+test/adapter.test.ts:
+
+# Unhandled error between tests
+-------------------------------
+error: Cannot find module '../../../adapters/mentra/commands' from '/workspace/oss/glass-contract-v1/test/adapter.test.ts'
+-------------------------------
+
+
+test/boundary.test.ts:
+
+# Unhandled error between tests
+-------------------------------
+error: Cannot find module '../../../check-d4-boundary' from '/workspace/oss/glass-contract-v1/test/boundary.test.ts'
+-------------------------------
+
+
+ 57 pass
+ 2 fail
+ 2 errors
+ 205 expect() calls
+Ran 59 tests across 3 files. [26.00ms]
+EXIT=1

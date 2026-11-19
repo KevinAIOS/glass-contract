@@ -1,0 +1,37 @@
+$ git diff --no-index _freeze-src/glass-contract/{package.json,tsconfig.json} glass-contract-v1/
+diff --git a/_freeze-src/glass-contract/package.json b/glass-contract-v1/package.json
+index 34ea7b6..eb3afaf 100644
+--- a/_freeze-src/glass-contract/package.json
++++ b/glass-contract-v1/package.json
+@@ -10,12 +10,18 @@
+       "default": "./dist/index.js"
+     }
+   },
+-  "files": ["dist"],
++  "files": [
++    "dist"
++  ],
+   "scripts": {
+     "build": "tsc -p tsconfig.json",
+-    "test": "bun test test"
++    "test": "bun test test",
++    "test:standalone": "bun test test/contract.test.ts && node test/consumer.ts"
+   },
+   "dependencies": {
+     "zod": "3.25.76"
++  },
++  "devDependencies": {
++    "typescript": "7.0.2"
+   }
+ }
+diff --git a/_freeze-src/glass-contract/tsconfig.json b/glass-contract-v1/tsconfig.json
+index 3e44441..2873b58 100644
+--- a/_freeze-src/glass-contract/tsconfig.json
++++ b/glass-contract-v1/tsconfig.json
+@@ -11,5 +11,5 @@
+     "types": [],
+     "noEmitOnError": true
+   },
+-  "include": ["src/**/*.ts"]
++  "files": ["src/index.ts"]
+ }

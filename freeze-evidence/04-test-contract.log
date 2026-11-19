@@ -1,0 +1,8 @@
+$ bun test test/contract.test.ts
+bun test v1.4.4 (38afee6c8)
+
+ 57 pass
+ 0 fail
+ 205 expect() calls
+Ran 57 tests across 1 file. [20.00ms]
+EXIT=0

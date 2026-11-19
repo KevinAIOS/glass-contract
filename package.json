@@ -1,0 +1,27 @@
+{
+  "name": "@aios/glass-contract",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "Apache-2.0",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "bun test test/contract.test.ts && node test/consumer.ts",
+    "test:standalone": "bun test test/contract.test.ts && node test/consumer.ts"
+  },
+  "dependencies": {
+    "zod": "3.25.76"
+  },
+  "devDependencies": {
+    "typescript": "7.0.2"
+  }
+}
