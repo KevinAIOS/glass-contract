@@ -12,7 +12,7 @@ AIOS Host 与智能眼镜之间的设备契约（协议 v1）。仓库：https:/
 
 - **不是 Experience 契约**：不规定应用（Experience）能依赖什么。
 - **不是 SDK**：不是 `@aios/glass`，不提供 `registerApp`、`dashboard`、`stream` 之类的应用 API。
-- **不是 Host↔运行时契约，也不是感知管线契约**。Host↔运行时契约见 [KevinAIOS/host-runtime-contract](https://github.com/KevinAIOS/host-runtime-contract)（契约版本 v0.1.0，与本仓库标签或设备契约不是同一份）。
+- **不是 Host↔运行时契约，也不是感知管线契约**。Host↔运行时契约见 [KevinAIOS/host-runtime-contract](https://github.com/KevinAIOS/host-runtime-contract)（契约版本 v0.1.0，与本仓库标签或设备契约不是同一份）。Reality Runtime 的最小核心实现见 [KevinAIOS/reality-runtime](https://github.com/KevinAIOS/reality-runtime)。
 - **不是适配器实现**：Host 或某款眼镜的适配器（例如 Mentra 衍生适配器）不冻进本契约。
 
 本仓库只公开这一份设备契约。
